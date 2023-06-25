@@ -6,5 +6,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularAppl';
+  
+  fname:string="Adam";
+  lname:string="khan";
+  age:number=25;
+  gender:string="male";
+  country:string="india";
+  isEmployed:boolean=true;
+
+  handleSubmitBtn(){
+     
+    this.fname="johan";
+    this.lname="sinha";
+    this.age=55;
+    this.gender="male";
+    this.country="America";
+    this.isEmployed=false;
+
+  }
+
+
 }
